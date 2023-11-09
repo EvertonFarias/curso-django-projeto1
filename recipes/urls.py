@@ -8,6 +8,6 @@ from recipes.views import home, my_View
 
 urlpatterns = [
 
-    path("", my_View),
-    path("home/", home),
+    path("my_View/", my_View),
+    path("", home),
 ]
