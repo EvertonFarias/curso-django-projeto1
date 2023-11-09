@@ -1,6 +1,6 @@
 from django.urls import path
 from django.http import HttpResponse
-from recipes.views import home, my_View
+from recipes.views import home, android
 
 
 
@@ -8,6 +8,7 @@ from recipes.views import home, my_View
 
 urlpatterns = [
 
-    path("", my_View),
-    path("home/", home),
+   
+    path("", home),
+    path("android/", android)
 ]
